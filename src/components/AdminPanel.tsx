@@ -200,7 +200,7 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ onBack, currentUser }) =
                 type="email"
                 value={adminEmail}
                 onChange={(e) => setAdminEmail(e.target.value)}
-                placeholder="devxdynasty11@gmail.com"
+                placeholder="admin@gmail.com"
                 className="w-full px-3.5 py-2.5 bg-[#1a1a1a] border border-[#333333] rounded-xl text-xs text-white placeholder-neutral-500 focus:outline-none focus:border-[#0095f6]"
                 required
               />
