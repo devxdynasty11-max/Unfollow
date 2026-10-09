@@ -169,8 +169,8 @@ app.post('/api/admin/login', (req, res) => {
   const cleanEmail = String(email).trim().toLowerCase();
   const cleanPasskey = String(passkey).trim();
 
-  // Validate credentials against authoritative server credentials
-  const isEmailMatch = cleanEmail === ADMIN_EMAIL.toLowerCase() || cleanEmail === 'admin';
+  // Validate credentials strictly against authoritative server backend identity
+  const isEmailMatch = cleanEmail === ADMIN_EMAIL.toLowerCase();
   const isPasskeyMatch = cleanPasskey === ADMIN_PASSKEY;
 
   if (!isEmailMatch || !isPasskeyMatch) {
