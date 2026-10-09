@@ -1,0 +1,6 @@
+{
+  "name": "Insta Followers Increase",
+  "description": "Premium Instagram audience growth consultation and strategy platform with transparent goals, strict privacy adherence, and Supabase database persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
